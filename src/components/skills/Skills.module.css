@@ -1,0 +1,33 @@
+.Skills_container {
+  text-align: center;
+  padding-top: 50px;
+}
+.Skills {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  row-gap: 20px;
+  padding: 0px 150px 50px 150px;
+}
+.Skills div {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: rgb(230, 245, 230);
+  border: 2px solid transparent;
+  padding: 10px;
+  height: 100px;
+  line-height: 0%;
+  border-radius: 10px;
+}
+.Skills div:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+    border: 2px solid rgb(235, 35, 35);
+    background: white;
+    color: rgb(235, 35, 35);
+
+}
+.Skills img {
+  /* padding: 10px; */
+  width: 80px;
+  height: 75px;
+}

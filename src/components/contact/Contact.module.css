@@ -1,0 +1,21 @@
+.contact_container {
+  text-align: center;
+  background-color: rgb(230, 245, 230);
+  padding-top: 50px;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 0px 150px 50px 150px;
+}
+.contact img{
+  width:600px
+}
+.contactList{
+  text-align: left;
+}
+.contactList div{
+  padding: 10px;
+}

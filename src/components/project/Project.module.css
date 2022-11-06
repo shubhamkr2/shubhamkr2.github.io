@@ -1,0 +1,13 @@
+.projectContainer {
+  text-align: center;
+  background-color: rgb(230, 245, 230);
+  padding-top: 50px;
+}
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* width: 100%; */
+  justify-items: center;
+  row-gap: 20px;
+  padding: 0px 150px 50px 150px;
+}

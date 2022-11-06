@@ -1,0 +1,50 @@
+/* removing all default values */
+/* {
+  list-style: none; it wiil remove all bullet point from li
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+} */
+
+.nav {
+  /* background-color: #edf2f8; */
+
+  background-color: rgb(230, 245, 230);
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav ul li {
+  display: inline-block; /*making list horizontaly alligned */
+  margin: 20px;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 650;
+}
+.nav ul li a:hover {
+  cursor: pointer;
+  color: rgb(235, 35, 35);
+  border-bottom: 3px solid rgb(235, 35, 35);
+}
+.nav .mob, .nav .hamberger{
+  display: none;
+}
+@media (max-width:990px){
+  .nav .normal{
+    display: none;
+  }
+  .nav .hamberger{
+    display: flex;
+  }
+  /* .nav .mob{
+    display: flex;
+    background-color: blue;
+  } */
+}

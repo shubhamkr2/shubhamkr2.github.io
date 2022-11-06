@@ -1,0 +1,43 @@
+.card {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  width: 350px;
+  height: 460px;
+  background-color: white;
+}
+.card:hover {
+  cursor: pointer;
+  border: 2px solid rgb(235, 35, 35);
+}
+.card p {
+  text-align: justify;
+}
+.card img {
+  width: 340px;
+  border-radius: 15px;
+}
+.button {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.button button {
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background-color: rgb(230, 245, 230);
+  font-weight: 600;
+  padding: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 35px;
+}
+.button button:hover {
+  cursor: pointer;
+  border: 2px solid rgb(235, 35, 35);
+  background: white;
+  color: rgb(235, 35, 35);
+}

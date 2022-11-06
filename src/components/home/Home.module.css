@@ -1,0 +1,29 @@
+.home {
+  /* margin: 0; */
+  padding: 0;
+  padding-top: 180px;
+  padding-bottom: 110px;
+  background-color: rgb(230, 245, 230);
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  line-height: 0.75;
+}
+.home .text {
+  /* text-align: center; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* justify-items: center; */
+  padding-top: 60px;
+}
+.name {
+  font-size: 60px;
+}
+.des {
+  font-size: 40px;
+}
+
+.profile img {
+  border-radius: 15px;
+  width: 280px;
+}
