@@ -15,7 +15,8 @@ const projectList = [
   },
   {
     id: 2,
-    image: "https://github.com/shubhamkr2/UploadImages/blob/main/Screenshot%20(1456).png?raw=true",
+    image:
+      "https://github.com/shubhamkr2/UploadImages/blob/main/Screenshot%20(1456).png?raw=true",
     title: "MyNetDiary-Project",
     description:
       "MyNetDiary is a digital diet assistant for weight loss with accurate calorie counting, forecasting and personalized daily insights.",
@@ -25,7 +26,8 @@ const projectList = [
   },
   {
     id: 3,
-    image: "https://github.com/shubhamkr2/UploadImages/blob/main/Screenshot%20(1457).png?raw=true",
+    image:
+      "https://github.com/shubhamkr2/UploadImages/blob/main/Screenshot%20(1457).png?raw=true",
     title: "Buffer-Project",
     description:
       "Buffer is a multi-purpose social media marketing website. It allow us to draft and schedule posts for sharing across multiple social networks.",
@@ -35,7 +37,8 @@ const projectList = [
   },
   {
     id: 4,
-    image: "https://github.com/shubhamkr2/UploadImages/blob/main/Screenshot%20(1458).png?raw=true",
+    image:
+      "https://github.com/shubhamkr2/UploadImages/blob/main/Screenshot%20(1458).png?raw=true",
     title: "Dot-Key-Project",
     description:
       "Dot & Key is an award-winning skincare company established to transform the idea of 'skincare' into a fun, easy, and acceptable notion.",

@@ -1,6 +1,8 @@
-/* .Mobnav{
-    height: 75px;
-} */
-/* .Mobnav .hamberger{
-margin-top: 50px;
-} */
+.Mobnav ul {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  background-color: rgb(230, 245, 230);
+}

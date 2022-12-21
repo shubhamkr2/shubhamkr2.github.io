@@ -11,7 +11,7 @@ const Contact = () => {
       <h1>Contact</h1>
       <div className={css.contact}>
         <img
-          src="https://digitalmarketingjunction.in/wp-content/uploads/2021/10/left-img.gif"
+          src="https://github.com/shubhamkr2/UploadImages/blob/main/contact.gif?raw=true"
           alt="error"
         />
         <div>

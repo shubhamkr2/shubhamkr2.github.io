@@ -5,8 +5,8 @@
   padding: 15px;
   margin: 10px;
   text-align: center;
-  width: 350px;
-  height: 460px;
+  max-width: 350px;
+  min-height: 460px;
   background-color: white;
 }
 .card:hover {
@@ -17,7 +17,7 @@
   text-align: justify;
 }
 .card img {
-  width: 340px;
+  max-width: 340px;
   border-radius: 15px;
 }
 .button {
@@ -33,11 +33,34 @@
   padding: 0px;
   padding-left: 10px;
   padding-right: 10px;
-  height: 35px;
+  min-height: 35px;
 }
 .button button:hover {
   cursor: pointer;
   border: 2px solid rgb(235, 35, 35);
   background: white;
   color: rgb(235, 35, 35);
+}
+@media (max-width: 950px) {
+  .card {
+    max-width: 450px;
+  }
+  .card img {
+    max-width: 450px;
+  }
+}
+@media (max-width: 390px) {
+  .card img {
+    max-width: 280px;
+  }
+}
+@media (max-width: 300px) {
+  .card img {
+    max-width: 200px;
+  }
+}
+@media (max-width: 220px) {
+  .card img {
+    max-width: 150px;
+  }
 }

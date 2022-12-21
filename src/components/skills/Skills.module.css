@@ -18,16 +18,40 @@
   line-height: 0%;
   border-radius: 10px;
 }
-.Skills div:hover{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    cursor: pointer;
-    border: 2px solid rgb(235, 35, 35);
-    background: white;
-    color: rgb(235, 35, 35);
-
+.Skills div:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  cursor: pointer;
+  border: 2px solid rgb(235, 35, 35);
+  background: white;
+  color: rgb(235, 35, 35);
 }
 .Skills img {
-  /* padding: 10px; */
   width: 80px;
   height: 75px;
+}
+@media (max-width: 950px) {
+  .Skills {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 50px;
+  }
+  .Skills_container {
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+@media (max-width: 670px) {
+  .Skills {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 530px) {
+  .Skills {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

@@ -1,11 +1,16 @@
-.stats{
+.stats {
   text-align: center;
   padding-top: 50px;
 }
-.contribution{
-  
+.contribution {
   margin: auto;
   margin-left: 18%;
 }
 
-
+@media (max-width: 950px) {
+  .stats {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 15%;
+  }
+}

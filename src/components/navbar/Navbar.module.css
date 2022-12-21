@@ -1,20 +1,9 @@
-/* removing all default values */
-/* {
-  list-style: none; it wiil remove all bullet point from li
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-} */
-
 .nav {
-  /* background-color: #edf2f8; */
-
   background-color: rgb(230, 245, 230);
   height: 70px;
   width: 100%;
   position: fixed;
   z-index: 99;
-  opacity: 0.9;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,18 +22,23 @@
   color: rgb(235, 35, 35);
   border-bottom: 3px solid rgb(235, 35, 35);
 }
-.nav .mob, .nav .hamberger{
+.nav .mob,
+.nav .hamberger {
   display: none;
 }
-@media (max-width:990px){
-  .nav .normal{
+@media (max-width: 950px) {
+  .nav .normal {
     display: none;
   }
-  .nav .hamberger{
+  .nav .hamberger {
     display: flex;
   }
-  /* .nav .mob{
+  .nav .mob {
     display: flex;
-    background-color: blue;
-  } */
+  }
+  .nav .hamberger {
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+  }
 }

@@ -14,7 +14,7 @@ const ProjectCard = ({
       <img src={image} alt="error" />
       <h2>{title}</h2>
       <p>{description}</p>
-      <div style={{ width: "100%", textAlign: "left" }}>
+      <div style={{ maxWidth: "100%", textAlign: "left" }}>
         <span
           style={{
             fontWeight: "bold",
@@ -26,7 +26,9 @@ const ProjectCard = ({
         <span>{techStack}</span>
       </div>
       <div className={css.button}>
-        <a href={deployed}><button>View</button></a>
+        <a href={deployed}>
+          <button>View</button>
+        </a>
         <a href={github}>
           <button>GitHub</button>
         </a>
