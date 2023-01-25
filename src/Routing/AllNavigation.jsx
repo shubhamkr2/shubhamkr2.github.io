@@ -18,7 +18,7 @@ const AllNavigation = () => {
       <li>
         <Link to="contact">CONTACT</Link>
       </li>
-      <li>
+      <li onClick={()=>window.open("https://drive.google.com/file/d/1Q3jiQzC6umXJF8DQfDoYP7hQbAzFtsGI/view")}>
         <a href="https://drive.google.com/u/0/uc?id=1Q3jiQzC6umXJF8DQfDoYP7hQbAzFtsGI&export=download">
           RESUME
         </a>

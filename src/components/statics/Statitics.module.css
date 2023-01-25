@@ -13,4 +13,7 @@
     padding-left: 10%;
     padding-right: 15%;
   }
+  .streak_contribution{
+    display: none;
+  }
 }
