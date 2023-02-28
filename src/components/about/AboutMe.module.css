@@ -15,6 +15,30 @@
 .about p {
   text-align: justify;
 }
+.about div div{
+  display: flex;
+  width: fit-content;
+  padding: 5px;
+}
+.about div a{
+  text-decoration: none;
+}
+.about div div:hover {
+  cursor: pointer;
+}
+.about div div img{
+  width: 40px;
+}
+.about div button{
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #a5c1ec;
+  border: none;
+}
+.about div button:hover{
+  cursor: pointer;
+  background-color: #6897dd;
+}
 #about {
   padding-top: 50px;
 }
