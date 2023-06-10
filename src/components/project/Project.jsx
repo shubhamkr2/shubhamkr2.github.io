@@ -38,13 +38,13 @@ const projectList = [
   {
     id: 4,
     image:
-      "https://github.com/shubhamkr2/UploadImages/blob/main/Screenshot%20(1458).png?raw=true",
+      "https://raw.githubusercontent.com/shubhamkr2/UploadImages/main/Screenshot%20(1752).png",
     title: "Dot-Key-Project",
     description:
       "Dot & Key is an award-winning skincare company established to transform the idea of 'skincare' into a fun, easy, and acceptable notion.",
-    techStack: "ReactJs | Chakra-UI | HTML | CSS | JavaScript",
-    dep_link: "https://dot-and-key.vercel.app/",
-    git_link: "https://github.com/shubhamkr2/Dot-Key-Project",
+    techStack: "ReactJs | JavaScript | NodeJs | ExpressJs | MongoDB",
+    dep_link: "https://dot-and-key-app.netlify.app/",
+    git_link: "https://github.com/shubhamkr2/dot-and-key-project",
   },
 ];
 
