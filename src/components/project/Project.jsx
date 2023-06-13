@@ -43,7 +43,7 @@ const projectList = [
     description:
       "Dot & Key is an award-winning skincare company established to transform the idea of 'skincare' into a fun, easy, and acceptable notion.",
     techStack: "ReactJs | JavaScript | NodeJs | ExpressJs | MongoDB",
-    dep_link: "https://dot-and-key-app.netlify.app/",
+    dep_link: "https://dot-and-key-project-gppf.vercel.app/",
     git_link: "https://github.com/shubhamkr2/dot-and-key-project",
   },
 ];
